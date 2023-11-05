@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Filter({ filter, setFilter, setSort }) {
   return (
     <div className="filter">
@@ -7,7 +8,7 @@ function Filter({ filter, setFilter, setSort }) {
       <div className="filter-options">
         <div>
           <p>status:</p>
-          <select value={filter} onChange={(e) => setFilter(e.target.value)}>
+           <select value={filter} onChange={(e) => setFilter(e.target.value)}>
             <option value="All">Todas </option>
             <option value="Completed">Completas</option>
             <option value="Incompleted">Incompletas</option>
