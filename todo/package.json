@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "homepage": "https://TiagoCos.github.io/Todo_List/todo", 
+  "homepage": "https://TiagoCos.github.io/Todo_List/", 
   "private": true,
   "version": "0.0.0",
   "type": "module",
